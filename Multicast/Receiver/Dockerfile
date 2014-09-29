@@ -1,10 +1,4 @@
 #
-# follow http://www.slashroot.in/how-install-and-configure-kerberos-server
-# to set up a kerberos server 
-#  http://www.linuxproblems.org/wiki/Set_up_kerberos_on_Centos_6 is similar but more correct
-#
-#   docker build -t centos-recv Dockerfile-Recv
-#   docker run -t centos-recv;
 #
 
 FROM fedora
