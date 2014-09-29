@@ -6,10 +6,10 @@
 To Build 
 ```
 cd Receiver
-docker build -t fedora/recv
+docker build -t fedora/recv .
 cd ..
 cd Sender
-docker build -t fedora/send
+docker build -t fedora/send .
 ```
 
 To Run
