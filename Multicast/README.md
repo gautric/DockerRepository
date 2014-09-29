@@ -5,11 +5,8 @@
 
 To Build 
 ```
-cd Receiver
-docker build -t fedora/recv .
-cd ..
-cd Sender
-docker build -t fedora/send .
+docker build -t fedora/recv - < Dockerfile-Recv
+docker build -t fedora/send - < Dockerfile-Send
 ```
 
 To Run
