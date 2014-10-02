@@ -31,7 +31,7 @@ UDP buffer size:  208 KByte (default)
 
 2nd terminal
 ```
-$> docker build -t fedora/send
+$> docker run -t fedora/send
 ------------------------------------------------------------
 Client connecting to 224.0.1.105, UDP port 23364
 Sending 1470 byte datagrams
